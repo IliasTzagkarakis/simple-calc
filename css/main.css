@@ -1,0 +1,86 @@
+html{
+    height: 100%; 
+} 
+
+body{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+
+.line{
+    display: flex;
+}
+
+.item {
+    display: flex;
+    height: 5rem;
+    background-color: grey;
+    border: 1px solid black;
+    font-weight:bold;
+    flex:1;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    ;
+}
+.item-screen{
+    background-color: black;
+    height: 5rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.item-number:hover,
+.item-delete:hover,
+.item-back:hover
+{
+    background-color: aliceblue;
+} 
+
+.item-calc:hover{
+    background-color: rgb(255, 217, 113);
+}
+
+
+.item-number:active,
+.item-delete:active,
+.item-back:active{
+    background-color: lightgrey
+}
+
+.item-calc:active{
+    background-color: lightsalmon;
+}
+
+.item-calc{
+    background-color: orange;
+    color: white;
+}
+
+.item-delete{
+    flex-grow: 2;
+}
+
+.item-zero{
+    flex-grow: 3;
+}
+
+.result{
+    color: white;
+    font-size: 2rem;
+}
+
+.item-back{
+}
+
+.item-divide{
+}
